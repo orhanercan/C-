@@ -54,13 +54,13 @@ printf("\n\n\n\n\t\t%c is a wrong guess",temp);
 printf("\n\n\t\t ( You have %d more guesses)",6-count);}
 
 else{
-printf("\n\n\t\t u r correct!!");
-  printf("\n\t\t( u have %d more words to go)",border-answer);}
+printf("\n\n\t\t You Are Correct !!");
+  printf("\n\t\t( You have %d more words to go)",border-answer);}
  
 if(answer==border) break;
  }
  if(answer==border) printf("\n\n\n\t Congratz! YOU WON ! ");
- else printf("\n\n\n\t\t  u lose.\n\n \t\t **SORRY  U R HANGED**");
+ else printf("\n\n\n\t\t  u lose.\n\n \t\t **SORRY  YOU ARE HANGED !**");
 
 
 getch();}
